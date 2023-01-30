@@ -6,4 +6,8 @@ class GlobalVars {
     // 
     // import com.jenkinslib.GlobalVars
     // println GlobalVars.foo
+
+    def hello(String name="bar") {
+        echo "Hello, ${name}"
+    }
 }
